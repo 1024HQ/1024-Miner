@@ -37,8 +37,6 @@ Partial Class Form1
         Me.BCPUMining = New System.Windows.Forms.Button()
         Me.x = New System.Windows.Forms.ComboBox()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
-        Me.status = New System.Windows.Forms.Label()
-        Me.textstatus = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -143,7 +141,6 @@ Partial Class Form1
         '
         Me.BGPUMining.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BGPUMining.BackColor = System.Drawing.SystemColors.Desktop
-        Me.BGPUMining.Enabled = False
         Me.BGPUMining.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.BGPUMining.ForeColor = System.Drawing.Color.White
         Me.BGPUMining.Location = New System.Drawing.Point(176, 189)
@@ -157,7 +154,6 @@ Partial Class Form1
         '
         Me.BCPUMining.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BCPUMining.BackColor = System.Drawing.SystemColors.Desktop
-        Me.BCPUMining.Enabled = False
         Me.BCPUMining.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.BCPUMining.ForeColor = System.Drawing.Color.White
         Me.BCPUMining.Location = New System.Drawing.Point(176, 233)
@@ -178,32 +174,6 @@ Partial Class Form1
         Me.x.TabIndex = 12
         Me.x.Text = "x64"
         '
-        'BackgroundWorker1
-        '
-        '
-        'status
-        '
-        Me.status.AutoSize = True
-        Me.status.BackColor = System.Drawing.Color.Transparent
-        Me.status.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.status.Location = New System.Drawing.Point(430, 257)
-        Me.status.Name = "status"
-        Me.status.Size = New System.Drawing.Size(76, 22)
-        Me.status.TabIndex = 13
-        Me.status.Text = "Status : "
-        '
-        'textstatus
-        '
-        Me.textstatus.AutoSize = True
-        Me.textstatus.BackColor = System.Drawing.Color.Transparent
-        Me.textstatus.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.textstatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.textstatus.Location = New System.Drawing.Point(500, 257)
-        Me.textstatus.Name = "textstatus"
-        Me.textstatus.Size = New System.Drawing.Size(87, 22)
-        Me.textstatus.TabIndex = 14
-        Me.textstatus.Text = "loading..."
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -211,9 +181,7 @@ Partial Class Form1
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.Gray
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(633, 288)
-        Me.Controls.Add(Me.textstatus)
-        Me.Controls.Add(Me.status)
+        Me.ClientSize = New System.Drawing.Size(541, 288)
         Me.Controls.Add(Me.x)
         Me.Controls.Add(Me.BCPUMining)
         Me.Controls.Add(Me.BGPUMining)
@@ -230,7 +198,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "1024 Miner 1.0"
+        Me.Text = "1024 Miner 1.1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -249,7 +217,5 @@ Partial Class Form1
     Friend WithEvents BCPUMining As System.Windows.Forms.Button
     Friend WithEvents x As System.Windows.Forms.ComboBox
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents status As System.Windows.Forms.Label
-    Friend WithEvents textstatus As System.Windows.Forms.Label
 
 End Class

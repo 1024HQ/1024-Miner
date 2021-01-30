@@ -18,3 +18,13 @@ C:\Users\markerz99\Documents\Visual Studio 2012\Projects\1024-Miner\1024-Miner\b
 C:\Users\markerz99\Documents\Visual Studio 2012\Projects\1024-Miner\1024-Miner\obj\Debug\_1024_Miner.Form1.resources
 C:\Users\markerz99\Documents\Visual Studio 2012\Projects\1024-Miner\1024-Miner\obj\Debug\_1024_Miner.Resources.resources
 C:\Users\markerz99\Documents\Visual Studio 2012\Projects\1024-Miner\1024-Miner\obj\Debug\1024-Miner.vbproj.GenerateResource.Cache
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\bin\Debug\1024-Miner.exe.config
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\1024-Miner.exe
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\1024-Miner.xml
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\1024-Miner.pdb
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\bin\Debug\1024-Miner.exe
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\bin\Debug\1024-Miner.pdb
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\bin\Debug\1024-Miner.xml
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\_1024_Miner.Form1.resources
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\_1024_Miner.Resources.resources
+C:\Users\markerz99\Documents\GitHub\1024-Miner\1024-Miner\obj\Debug\1024-Miner.vbproj.GenerateResource.Cache

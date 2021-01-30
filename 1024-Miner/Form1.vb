@@ -1,6 +1,5 @@
 ﻿Imports System.IO
 Imports System.Net
-Imports System.ComponentModel
 Imports Microsoft.VisualBasic.CompilerServices
 
 
@@ -9,7 +8,6 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         'update file
-        BackgroundWorker1.RunWorkerAsync()
 
         algo.Text = My.Settings.algo
         ip.Text = My.Settings.serverip
@@ -55,25 +53,6 @@ Public Class Form1
         My.Settings.Save()
     End Sub
 
-    Private Sub BackgroundWorker1_DoWork(sender As Object, e As DoWorkEventArgs) Handles BackgroundWorker1.DoWork
-        'paste file
-        Try
-            IO.File.WriteAllBytes(appPath & "\ccminer-x32.exe", My.Resources.ccminer_x32)
-            IO.File.WriteAllBytes(appPath & "\ccminer-x64.exe", My.Resources.ccminer_x64)
-            IO.File.WriteAllBytes(appPath & "\libcurl-4.dll", My.Resources.libcurl_4)
-            IO.File.WriteAllBytes(appPath & "\libwinpthread-1.dll", My.Resources.libwinpthread_1)
-            IO.File.WriteAllBytes(appPath & "\minerd.exe", My.Resources.minerd)
-            IO.File.WriteAllBytes(appPath & "\msvcr120.dll", My.Resources.msvcr120)
-            IO.File.WriteAllBytes(appPath & "\zlib1.dll", My.Resources.zlib1)
-        Catch ex As Exception
+   
 
-        End Try
-    End Sub
-
-    Private Sub BackgroundWorker1_RunWorkerCompleted1(sender As Object, e As RunWorkerCompletedEventArgs) Handles BackgroundWorker1.RunWorkerCompleted
-        textstatus.Text = "Ready !!"
-        textstatus.ForeColor = Color.DarkGreen
-        BGPUMining.Enabled = True
-        BCPUMining.Enabled = True
-    End Sub
 End Class
