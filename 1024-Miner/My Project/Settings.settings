@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="algo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">scrypt</Value>
+    </Setting>
+    <Setting Name="serverip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5599</Value>
+    </Setting>
+    <Setting Name="wallet" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">x</Value>
+    </Setting>
+    <Setting Name="x" Type="System.String" Scope="User">
+      <Value Profile="(Default)">x64</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
